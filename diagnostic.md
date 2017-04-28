@@ -13,13 +13,13 @@ It would also not be possible to save state and come back to the app later.
 Which layer in the MVC pattern is used by the controller to fetch data?
 
 ```md
-It uses the model.
+The controller users the view to to communicate with the model and fetch the data.
 ```
 
 Which layer in the MVC pattern communicates with the model?
 
 ```md
-Controller.
+Controller in conjunction with the view.
 ```
 
 Why don't we use views in our interpretation of the MVC pattern?
@@ -66,7 +66,7 @@ required for data to be returned to the client. (bullet points or ordered list)
 What is the command to generate a new rails-api app?
 
 ```bash
-rails new
+rails-api
 ```
 
 What is the command to start an instance of a rails server?
